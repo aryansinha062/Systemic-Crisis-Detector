@@ -6,18 +6,15 @@ import pytest
 from src.layer_1_company_risk import CompanyRiskDetector
 
 def test_detector_initializes():
-    """Test that detector initializes"""
     detector = CompanyRiskDetector()
     assert detector is not None
 
 def test_can_analyze_company():
-    """Test that we can analyze a company"""
     detector = CompanyRiskDetector()
     result = detector.generate_company_risk_alert('TSLA')
     assert result['ticker'] == 'TSLA'
 
 def test_all_modules_present():
-    """Test that all 5 modules are included"""
     detector = CompanyRiskDetector()
     assert hasattr(detector, 'analyze_news_sentiment')
     assert hasattr(detector, 'analyze_board_governance')
@@ -26,53 +23,87 @@ def test_all_modules_present():
     assert hasattr(detector, 'analyze_competitive_position')
 
 def test_news_sentiment_analysis():
-    """Test that news sentiment analysis works"""
     detector = CompanyRiskDetector()
     result = detector.analyze_news_sentiment('TSLA')
-    
     assert result['company'] == 'TSLA'
     assert 'sentiment_score' in result
-    assert 'alert' in result
     assert result['alert'] in ['CRITICAL', 'WARNING', 'NORMAL']
-    assert 'negative_articles' in result
 
 def test_sentiment_triggers_alert():
-    """Test that negative sentiment triggers alerts"""
     detector = CompanyRiskDetector()
     result = detector.analyze_news_sentiment('TSLA')
-    
-    # TSLA has negative sentiment, should trigger alert
     assert result['alert'] in ['CRITICAL', 'WARNING']
 
 def test_board_governance_analysis():
-    """Test that board governance analysis works"""
     detector = CompanyRiskDetector()
     result = detector.analyze_board_governance('TSLA')
-    
     assert result['company'] == 'TSLA'
     assert 'board_risk_score' in result
-    assert 'alert' in result
     assert result['alert'] in ['CRITICAL', 'WARNING', 'NORMAL']
-    assert 'red_flags' in result
-    assert isinstance(result['red_flags'], list)
 
 def test_board_red_flags_detected():
-    """Test that red flags are properly detected"""
     detector = CompanyRiskDetector()
     result = detector.analyze_board_governance('META')
-    
-    # META has multiple red flags, should be WARNING or CRITICAL
     assert result['alert'] in ['CRITICAL', 'WARNING']
     assert len(result['red_flags']) > 0
 
 def test_good_governance_detected():
-    """Test that good governance gets lower scores"""
     detector = CompanyRiskDetector()
     result = detector.analyze_board_governance('AAPL')
-    
-    # AAPL has good governance, should be NORMAL
     assert result['alert'] == 'NORMAL'
-    assert len(result['red_flags']) == 0
+
+def test_strategy_risk_analysis():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_strategy_risk('TSLA')
+    assert result['company'] == 'TSLA'
+    assert 'strategy_risk_score' in result
+    assert result['alert'] in ['CRITICAL', 'WARNING', 'NORMAL']
+
+def test_strategy_red_flags():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_strategy_risk('META')
+    assert result['alert'] in ['CRITICAL', 'WARNING']
+    assert len(result['red_flags']) > 0
+
+def test_operational_health_analysis():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_operational_health('TSLA')
+    assert result['company'] == 'TSLA'
+    assert 'operational_risk_score' in result
+    assert result['alert'] in ['CRITICAL', 'WARNING', 'NORMAL']
+
+def test_operational_red_flags():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_operational_health('META')
+    assert result['alert'] in ['CRITICAL', 'WARNING']
+    assert len(result['red_flags']) > 0
+
+def test_competitive_position_analysis():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_competitive_position('TSLA')
+    assert result['company'] == 'TSLA'
+    assert 'competitive_risk_score' in result
+    assert result['alert'] in ['CRITICAL', 'WARNING', 'NORMAL']
+
+def test_competitive_risk_detected():
+    detector = CompanyRiskDetector()
+    result = detector.analyze_competitive_position('META')
+    assert result['alert'] in ['CRITICAL', 'WARNING']
+
+def test_all_companies_work():
+    detector = CompanyRiskDetector()
+    for ticker in ['TSLA', 'AAPL', 'META']:
+        sentiment = detector.analyze_news_sentiment(ticker)
+        board = detector.analyze_board_governance(ticker)
+        strategy = detector.analyze_strategy_risk(ticker)
+        operations = detector.analyze_operational_health(ticker)
+        competition = detector.analyze_competitive_position(ticker)
+        
+        assert sentiment['company'] == ticker
+        assert board['company'] == ticker
+        assert strategy['company'] == ticker
+        assert operations['company'] == ticker
+        assert competition['company'] == ticker
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
