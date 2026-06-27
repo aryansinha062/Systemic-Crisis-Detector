@@ -68,6 +68,13 @@ class CompanyRiskDetector:
 
 if __name__ == '__main__':
     detector = CompanyRiskDetector()
-    result = detector.generate_company_risk_alert('TSLA')
-    print("Company Risk Analysis for TSLA:")
-    print(result)
+    print("\n=== LAYER 1: COMPANY RISK DETECTION ===\n")
+    
+    for ticker in ['TSLA', 'AAPL', 'META']:
+        print(f"\n--- {ticker} ---")
+        result = detector.analyze_news_sentiment(ticker)
+        print(f"Sentiment: {result.get('sentiment_score', 'N/A')}")
+        print(f"Alert: {result.get('alert', 'N/A')}")
+        if 'red_flags' in result:
+            for flag in result['red_flags']:
+                print(f"  ⚠️ {flag}")
