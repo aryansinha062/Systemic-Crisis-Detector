@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-06-29T17:28:09.982309",
+  "company": "Rajesh Exports Limited",
+  "overall_network_risk_score": 8.1875,
+  "risks": {
+    "asset_dependency": {
+      "asset": "Valcambi SA (Switzerland)",
+      "importance_pct": 35,
+      "concentration_ratio": 2.3333333333333335,
+      "risk_score": 7.0,
+      "severity": "HIGH",
+      "message": "Single asset represents 35% of global supply chain"
+    },
+    "structure": {
+      "hierarchy_levels": 4,
+      "subsidiaries": 5,
+      "unknown_entities": 3,
+      "hierarchy_risk": 10,
+      "unknown_risk": 4.5,
+      "total_risk_score": 7.25,
+      "severity": "CRITICAL",
+      "message": "4-level hierarchy with 3 unclear relationships"
+    },
+    "cascade_failure": {
+      "phase_1": {
+        "event": "Direct Subsidiary Failures",
+        "days": "1-3",
+        "entities_affected": "REL Singapore, GGR",
+        "impact": "Fund transfers frozen, operating capital seized",
+        "description": "Regulatory investigation freezes Rajesh Mehta accounts"
+      },
+      "phase_2": {
+        "event": "Related Party Liquidity Crisis",
+        "days": "8-14",
+        "entities_affected": "Affluence Shares, suppliers, customers",
+        "impact": "Payment defaults, supplier withdrawal",
+        "description": "Affluence denies transactions, suppliers stop credit"
+      },
+      "phase_3": {
+        "event": "Global Supply Chain Disruption",
+        "days": "22-28",
+        "entities_affected": "Valcambi processing, gold refineries, exporters",
+        "impact": "Gold processing halts, export licenses questioned",
+        "description": "Swiss authorities investigate Valcambi role"
+      },
+      "cascade_risk_score": 8.5,
+      "severity": "CRITICAL",
+      "timeline_days": 28,
+      "message": "Fraud spreads from company level to global supply chain in 4 weeks"
+    },
+    "redundancy": {
+      "primary_asset": "Valcambi",
+      "backup_options": 0,
+      "industry_alternatives": 5,
+      "redundancy_score": 10.0,
+      "severity": "CRITICAL",
+      "message": "No backup refinery. Single point of failure at Valcambi"
+    }
+  },
+  "summary": {
+    "avg_score": 8.1875,
+    "confidence": 82.0,
+    "recommendation": "SUPPLY_CHAIN_INVESTIGATION_REQUIRED"
+  }
+}

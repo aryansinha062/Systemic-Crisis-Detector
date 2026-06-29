@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-29T17:23:14.423284",
+  "company": "Rajesh Exports Limited (NSE: RAJESHEXPO)",
+  "red_flags": [
+    {
+      "flag_name": "RECEIVABLES_QUALITY_DETERIORATION",
+      "severity": "CRITICAL",
+      "confidence": 85.0,
+      "message": "DSO 390 days vs benchmark 45 days"
+    },
+    {
+      "flag_name": "REVENUE_VERIFICATION_GAP",
+      "severity": "CRITICAL",
+      "confidence": 98.0,
+      "message": "99.8% unverifiable"
+    },
+    {
+      "flag_name": "CIRCULAR_RELATED_PARTY_TRANSACTIONS",
+      "severity": "CRITICAL_FRAUD",
+      "confidence": 99.0,
+      "message": "67.6% of sales unconfirmed"
+    },
+    {
+      "flag_name": "OCF_NI_MISMATCH",
+      "severity": "HIGH",
+      "confidence": 84.0,
+      "message": "OCF/NI ratio 0.76x"
+    },
+    {
+      "flag_name": "FUND_DIVERSION_UNDISCLOSED",
+      "severity": "CRITICAL_FRAUD",
+      "confidence": 95.0,
+      "message": "Rs 694 cr diverted"
+    }
+  ],
+  "summary": {
+    "total_flags": 5,
+    "fraud_probability": 99.0
+  }
+}

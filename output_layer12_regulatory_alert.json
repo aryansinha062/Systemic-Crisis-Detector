@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-29T17:24:58.463435",
+  "alert": {
+    "alert_level": "\u26a0\ufe0f HIGH_WARNING",
+    "integrated_score": 7.23,
+    "fraud_probability": 85.0,
+    "investigation_timeline": "WITHIN 1 WEEK",
+    "company": "Rajesh Exports Limited",
+    "layer_breakdown": {
+      "L5_Forensic": 9.5,
+      "L12_Alerts": 9.2,
+      "L6_Amplification": 8.2,
+      "L4_Behavioral": 3.0,
+      "L8_Compliance": 4.0
+    }
+  },
+  "investigation_roadmap": {
+    "Phase_1_Urgent_Actions": [
+      "Issue formal inquiry notice within 24 hours",
+      "Freeze fund transfers to related parties",
+      "Notify stock exchange",
+      "Request forensic auditor appointment within 48 hours",
+      "Secure company records"
+    ],
+    "Phase_2_Documentation": [
+      "Request 5-year audited financial statements",
+      "Request transaction-level documentation",
+      "Request ERP system access",
+      "Request board meeting minutes"
+    ],
+    "Phase_3_Verification": [
+      "Direct customer verification (top 20)",
+      "Cross-border filing reconciliation",
+      "Banking data verification",
+      "GST & Customs verification"
+    ],
+    "Phase_4_Investigation": [
+      "File formal investigation report",
+      "Calculate fraud quantum",
+      "Issue provisional order",
+      "Impose penalties"
+    ],
+    "estimated_timeline_weeks": "10-14"
+  },
+  "recommendation": "TIER-1 EMERGENCY - MOVE WITHIN 24 HOURS"
+}

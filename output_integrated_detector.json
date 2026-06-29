@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-06-29T17:36:24.636343",
+  "company": "Rajesh Exports Limited",
+  "integrated_fraud_score": 7.2299999999999995,
+  "fraud_probability": 85.0,
+  "alert_level": "\u26a0\ufe0f HIGH_WARNING",
+  "all_layers": {
+    "L1_Sentiment": 1.0,
+    "L2_Macroeconomic": 2.0,
+    "L3_Network": 8.5,
+    "L4_Behavioral": 3.0,
+    "L5_Forensic": 9.5,
+    "L6_Amplification": 8.2,
+    "L7_Policy": 3.0,
+    "L8_Regulatory": 4.0,
+    "L9_Geopolitical": 2.0,
+    "L10_ESG": 2.0,
+    "L11_Patent": 1.0,
+    "L12_Alerts": 9.2
+  },
+  "fraud_relevant_layers": {
+    "L5_Forensic": 9.5,
+    "L12_Alerts": 9.2,
+    "L6_Amplification": 8.2,
+    "L4_Behavioral": 3.0,
+    "L8_Regulatory": 4.0
+  },
+  "weights": {
+    "L5_Forensic": 0.3,
+    "L12_Alerts": 0.25,
+    "L6_Amplification": 0.15,
+    "L4_Behavioral": 0.15,
+    "L8_Regulatory": 0.1
+  }
+}
