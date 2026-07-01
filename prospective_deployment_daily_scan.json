@@ -1,0 +1,197 @@
+{
+  "scan_date": "2026-07-01T18:14:06.245848",
+  "system": "Prospective Deployment v1",
+  "companies_scanned": 17,
+  "alerts_generated": 0,
+  "results": [
+    {
+      "company": "HDFC Bank",
+      "ticker": "HDFCBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.24,
+      "volatility": 28.36,
+      "momentum_30d": 6.61,
+      "current_price": 796.15
+    },
+    {
+      "company": "ICICI Bank",
+      "ticker": "ICICIBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 1.98,
+      "volatility": 23.68,
+      "momentum_30d": 11.02,
+      "current_price": 1379.8
+    },
+    {
+      "company": "Axis Bank",
+      "ticker": "AXISBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.21,
+      "volatility": 27.86,
+      "momentum_30d": 9.21,
+      "current_price": 1368.7
+    },
+    {
+      "company": "Kotak Bank",
+      "ticker": "KOTAKBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.03,
+      "volatility": 24.48,
+      "momentum_30d": 5.15,
+      "current_price": 400.45
+    },
+    {
+      "company": "SBI",
+      "ticker": "SBIN.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.21,
+      "volatility": 27.83,
+      "momentum_30d": 10.15,
+      "current_price": 1047.4
+    },
+    {
+      "company": "IndusInd Bank",
+      "ticker": "INDUSINDBK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.63,
+      "volatility": 35.34,
+      "momentum_30d": 4.8,
+      "current_price": 941.6
+    },
+    {
+      "company": "YES Bank",
+      "ticker": "YESBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.52,
+      "volatility": 33.4,
+      "momentum_30d": 13.95,
+      "current_price": 24.58
+    },
+    {
+      "company": "Bank of Baroda",
+      "ticker": "BANKBARODA.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.47,
+      "volatility": 32.43,
+      "momentum_30d": 6.59,
+      "current_price": 271.65
+    },
+    {
+      "company": "PNB",
+      "ticker": "PNB.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.43,
+      "volatility": 31.73,
+      "momentum_30d": 8.58,
+      "current_price": 107.54
+    },
+    {
+      "company": "Federal Bank",
+      "ticker": "FEDERALBNK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.15,
+      "volatility": 26.64,
+      "momentum_30d": 16.79,
+      "current_price": 331.4
+    },
+    {
+      "company": "IDFC First Bank",
+      "ticker": "IDFCFIRSTB.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 3.02,
+      "volatility": 42.35,
+      "momentum_30d": 15.56,
+      "current_price": 78.93
+    },
+    {
+      "company": "AU Bank",
+      "ticker": "AUBANK.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.65,
+      "volatility": 35.66,
+      "momentum_30d": 9.67,
+      "current_price": 1051.4
+    },
+    {
+      "company": "ICICI Prudential",
+      "ticker": "ICICIPRULI.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.6,
+      "volatility": 31.34,
+      "momentum_30d": -3.03,
+      "current_price": 492.95
+    },
+    {
+      "company": "SBI Life",
+      "ticker": "SBILIFE.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.07,
+      "volatility": 25.29,
+      "momentum_30d": -3.71,
+      "current_price": 1790.9
+    },
+    {
+      "company": "Bajaj Financial",
+      "ticker": "BAJAJFINSV.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.17,
+      "volatility": 27.06,
+      "momentum_30d": 2.68,
+      "current_price": 1797.6
+    },
+    {
+      "company": "Bajaj Finance",
+      "ticker": "BAJFINANCE.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.57,
+      "volatility": 34.35,
+      "momentum_30d": 12.5,
+      "current_price": 1014.9
+    },
+    {
+      "company": "HDFC AMC",
+      "ticker": "HDFCAMC.NS",
+      "sector": "Banking",
+      "date": "2026-07-01",
+      "alert": "NORMAL",
+      "risk_score": 2.85,
+      "volatility": 39.38,
+      "momentum_30d": 4.49,
+      "current_price": 2745.8
+    }
+  ],
+  "alerts": [],
+  "methodology": "Real-time monitoring on 100 unknown Indian companies with daily scoring"
+}

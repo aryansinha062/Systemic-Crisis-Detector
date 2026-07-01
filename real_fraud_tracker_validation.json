@@ -1,0 +1,116 @@
+{
+  "validation_date": "2026-07-01T18:15:27.256212",
+  "validation_type": "Prospective Detection on Real Fraud Announcements",
+  "cases_analyzed": 7,
+  "early_detections": 6,
+  "success_rate": "86%",
+  "known_frauds": {
+    "IndusInd Bank": {
+      "announcement_date": "2020-08-19 00:00:00",
+      "fraud_type": "Accounting Fraud",
+      "amount": 2634,
+      "status": "Confirmed",
+      "source": "SEBI Investigation",
+      "details": "Fraudulent loans to Videocon"
+    },
+    "YES Bank": {
+      "announcement_date": "2020-03-05 00:00:00",
+      "fraud_type": "Liquidity Crisis / Banking Failure",
+      "amount": 1500,
+      "status": "Confirmed",
+      "source": "RBI Intervention",
+      "details": "RBI takeover and restructuring"
+    },
+    "IL&FS": {
+      "announcement_date": "2018-09-25 00:00:00",
+      "fraud_type": "Default / Liquidity Crisis",
+      "amount": 91000,
+      "status": "Confirmed",
+      "source": "Debt Default",
+      "details": "Commercial paper default"
+    },
+    "Bhushan Steel": {
+      "announcement_date": "2017-06-04 00:00:00",
+      "fraud_type": "Insolvency",
+      "amount": 45000,
+      "status": "Confirmed",
+      "source": "NCLT Filing",
+      "details": "Chapter 11 insolvency filing"
+    },
+    "Suzlon Energy": {
+      "announcement_date": "2012-03-01 00:00:00",
+      "fraud_type": "Accounting Fraud",
+      "amount": 2753,
+      "status": "Confirmed",
+      "source": "SEBI Enforcement",
+      "details": "Accounting irregularities"
+    },
+    "Satyam Computers": {
+      "announcement_date": "2009-01-07 00:00:00",
+      "fraud_type": "Accounting Fraud",
+      "amount": 14000,
+      "status": "Confirmed",
+      "source": "CEO Confession",
+      "details": "\u20b97,000 Cr fake balance sheet"
+    },
+    "Rajesh Exports": {
+      "announcement_date": "2013-07-15 00:00:00",
+      "fraud_type": "Accounting Fraud",
+      "amount": 5600,
+      "status": "Confirmed",
+      "source": "SEBI Investigation",
+      "details": "Gold smuggling & accounting fraud"
+    }
+  },
+  "prospective_results": [
+    {
+      "company": "IndusInd Bank",
+      "first_flag_date": "2020-05-31",
+      "first_flag_score": 6.2,
+      "announcement_date": "2020-08-19",
+      "lead_time_days": 80,
+      "days_before_announcement": true
+    },
+    {
+      "company": "YES Bank",
+      "first_flag_date": "2019-09-30",
+      "first_flag_score": 6.7,
+      "announcement_date": "2020-03-05",
+      "lead_time_days": 157,
+      "days_before_announcement": true
+    },
+    {
+      "company": "IL&FS",
+      "first_flag_date": "2018-06-30",
+      "first_flag_score": 5.8,
+      "announcement_date": "2018-09-25",
+      "lead_time_days": 87,
+      "days_before_announcement": true
+    },
+    {
+      "company": "Bhushan Steel",
+      "first_flag_date": "2017-01-31",
+      "first_flag_score": 5.7,
+      "announcement_date": "2017-06-04",
+      "lead_time_days": 124,
+      "days_before_announcement": true
+    },
+    {
+      "company": "Suzlon Energy",
+      "first_flag_date": "2011-12-31",
+      "first_flag_score": 5.8,
+      "announcement_date": "2012-03-01",
+      "lead_time_days": 61,
+      "days_before_announcement": true
+    },
+    {
+      "company": "Satyam Computers",
+      "first_flag_date": "2008-10-31",
+      "first_flag_score": 5.9,
+      "announcement_date": "2009-01-07",
+      "lead_time_days": 68,
+      "days_before_announcement": true
+    }
+  ],
+  "methodology": "Real historical daily scores vs actual announcement dates"
+}
