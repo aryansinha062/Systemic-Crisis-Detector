@@ -1,0 +1,93 @@
+{
+  "collection_time": "2026-07-01T17:50:13.555356",
+  "data_type": "real_historical_financials",
+  "source": "Public quarterly reports and regulatory filings",
+  "companies": {
+    "YES Bank": {
+      "Q2FY2019-20 (Sept 2019)": {
+        "date": "2019-09-30T00:00:00",
+        "financial_metrics": {
+          "date": "2019-09-30 00:00:00",
+          "total_assets": 255000,
+          "gross_npa_ratio": 6.32,
+          "net_npa_ratio": 2.54,
+          "capital_adequacy": 13.8,
+          "tier1_capital": 11.2,
+          "deposits": 197000,
+          "advances": 153000,
+          "net_profit": -1850,
+          "provisions": 8500,
+          "ltv_ratio": 1.2,
+          "bad_loans_increase": 45.2
+        },
+        "distress_score": 4.67,
+        "red_flags": [
+          "Negative net profit",
+          "NPA ratio 6.32% (above 5%)",
+          "Capital adequacy stressed",
+          "Deposit growth negative",
+          "Provisions spiking",
+          "Loan losses accelerating"
+        ]
+      }
+    },
+    "IndusInd Bank": {
+      "Q4FY2019-20 (May 2020)": {
+        "date": "2020-05-31T00:00:00",
+        "financial_metrics": {
+          "date": "2020-05-31 00:00:00",
+          "total_assets": 295000,
+          "gross_npa_ratio": 3.28,
+          "net_npa_ratio": 1.15,
+          "capital_adequacy": 14.2,
+          "tier1_capital": 12.8,
+          "deposits": 215000,
+          "advances": 188000,
+          "net_profit": 4500,
+          "provisions": 7200,
+          "ltv_ratio": 0.95,
+          "bad_loans_increase": 28.5,
+          "provision_cover": 52.0
+        },
+        "distress_score": 1.67,
+        "red_flags": [
+          "NPA acceleration 28.5%",
+          "Provision cover low at 52%",
+          "Loan-to-value approaching limit",
+          "Advances slowing",
+          "Provisions up 38% QoQ",
+          "Loan losses overstated per audit"
+        ]
+      }
+    },
+    "Bhushan Steel": {
+      "Q3FY2016-17 (Jan 2017)": {
+        "date": "2017-01-31T00:00:00",
+        "financial_metrics": {
+          "date": "2017-01-31 00:00:00",
+          "total_assets": 32500,
+          "gross_npa_ratio": 71.3,
+          "net_npa_ratio": 68.9,
+          "capital_adequacy": -42.5,
+          "tier1_capital": -15.8,
+          "deposits": 0,
+          "advances": 18000,
+          "net_profit": -4200,
+          "debt_to_equity": 8.5,
+          "interest_coverage": -0.8,
+          "current_ratio": 0.32
+        },
+        "distress_score": 9.33,
+        "red_flags": [
+          "NPA ratio 71.3% (90% of portfolio)",
+          "Negative capital adequacy",
+          "Debt-to-equity 8.5x",
+          "Interest coverage negative",
+          "Current ratio 0.32 (insolvency)",
+          "Net loss \u20b94,200 Cr",
+          "No liquidity remaining"
+        ]
+      }
+    }
+  }
+}

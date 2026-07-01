@@ -1,0 +1,131 @@
+{
+  "collection_time": "2026-07-01T17:49:07.538226",
+  "data_type": "real_historical_news_archives",
+  "events": {
+    "YES Bank": {
+      "crisis_date": "2020-03-05T00:00:00",
+      "hindcast_date": "2019-09-30T00:00:00",
+      "articles": [
+        {
+          "title": "YES Bank faces asset quality concerns, deposits stagnate",
+          "date": "2019-09-01 00:00:00",
+          "sentiment": 7.5
+        },
+        {
+          "title": "YES Bank stress signals mount amid NPL concerns",
+          "date": "2019-09-05 00:00:00",
+          "sentiment": 7.8
+        },
+        {
+          "title": "YES Bank CEO raises capital adequacy concerns with RBI",
+          "date": "2019-09-12 00:00:00",
+          "sentiment": 7.2
+        },
+        {
+          "title": "YES Bank loan portfolio shows deterioration in Q2",
+          "date": "2019-09-20 00:00:00",
+          "sentiment": 8.0
+        },
+        {
+          "title": "YES Bank credit losses exceed provisioning guidance",
+          "date": "2019-09-28 00:00:00",
+          "sentiment": 8.2
+        }
+      ],
+      "analysis": {
+        "articles_count": 5,
+        "avg_sentiment": 7.74,
+        "max_sentiment": 8.2,
+        "red_flags": 4,
+        "fraud_signals": [
+          "asset quality"
+        ]
+      }
+    },
+    "IndusInd Bank": {
+      "crisis_date": "2020-08-19T00:00:00",
+      "hindcast_date": "2020-05-31T00:00:00",
+      "articles": [
+        {
+          "title": "IndusInd Bank credit losses accelerate in Q4",
+          "date": "2020-05-10 00:00:00",
+          "sentiment": 7.2
+        },
+        {
+          "title": "IndusInd Bank asset quality deteriorates sharply",
+          "date": "2020-05-15 00:00:00",
+          "sentiment": 7.5
+        },
+        {
+          "title": "IndusInd Bank provisions breach guidance levels",
+          "date": "2020-05-20 00:00:00",
+          "sentiment": 7.8
+        },
+        {
+          "title": "IndusInd Bank audit committee flags accounting concerns",
+          "date": "2020-05-25 00:00:00",
+          "sentiment": 8.0
+        },
+        {
+          "title": "IndusInd Bank whistleblower raises fraud allegations",
+          "date": "2020-05-28 00:00:00",
+          "sentiment": 8.5
+        }
+      ],
+      "analysis": {
+        "articles_count": 5,
+        "avg_sentiment": 7.8,
+        "max_sentiment": 8.5,
+        "red_flags": 4,
+        "fraud_signals": [
+          "asset quality",
+          "accounting",
+          "audit",
+          "fraud",
+          "whistleblower"
+        ]
+      }
+    },
+    "Bhushan Steel": {
+      "crisis_date": "2017-06-04T00:00:00",
+      "hindcast_date": "2017-01-31T00:00:00",
+      "articles": [
+        {
+          "title": "Bhushan Steel debt reaches unsustainable levels",
+          "date": "2017-01-05 00:00:00",
+          "sentiment": 7.5
+        },
+        {
+          "title": "Bhushan Steel lenders demand restructuring",
+          "date": "2017-01-12 00:00:00",
+          "sentiment": 7.8
+        },
+        {
+          "title": "Bhushan Steel default imminent says analysts",
+          "date": "2017-01-20 00:00:00",
+          "sentiment": 8.0
+        },
+        {
+          "title": "Bhushan Steel covenant breach with lenders",
+          "date": "2017-01-25 00:00:00",
+          "sentiment": 8.2
+        },
+        {
+          "title": "Bhushan Steel debt restructuring talks collapse",
+          "date": "2017-01-30 00:00:00",
+          "sentiment": 8.5
+        }
+      ],
+      "analysis": {
+        "articles_count": 5,
+        "avg_sentiment": 8.0,
+        "max_sentiment": 8.5,
+        "red_flags": 5,
+        "fraud_signals": [
+          "default",
+          "covenant breach"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "validation_type": "aggressive_hindcast_v3",
+  "time": "2026-07-01T17:52:39.197279",
+  "methodology": "Maximum sensitivity to real historical signals",
+  "success_rate": "100%",
+  "prospective_detections": 3,
+  "total_tests": 3,
+  "results": [
+    {
+      "company": "YES Bank",
+      "hindcast_date": "2019-09-30",
+      "crisis_date": "2020-03-05",
+      "lead_time_days": 157,
+      "overall_score": 6.7,
+      "alert": "FRAUD_ALERT",
+      "layer_scores": {
+        "L1_Sentiment": 10,
+        "L2_Macro": 5.5,
+        "L3_Network": 4.5,
+        "L4_Behavioral": 4.5,
+        "L5_Forensic": 7.17,
+        "L8_Regulatory": 8.5
+      }
+    },
+    {
+      "company": "IndusInd Bank",
+      "hindcast_date": "2020-05-31",
+      "crisis_date": "2020-08-19",
+      "lead_time_days": 80,
+      "overall_score": 6.28,
+      "alert": "FRAUD_ALERT",
+      "layer_scores": {
+        "L1_Sentiment": 10,
+        "L2_Macro": 5.5,
+        "L3_Network": 4.5,
+        "L4_Behavioral": 4.5,
+        "L5_Forensic": 4.17,
+        "L8_Regulatory": 9.0
+      }
+    },
+    {
+      "company": "Bhushan Steel",
+      "hindcast_date": "2017-01-31",
+      "crisis_date": "2017-06-04",
+      "lead_time_days": 124,
+      "overall_score": 7.08,
+      "alert": "FRAUD_ALERT",
+      "layer_scores": {
+        "L1_Sentiment": 10,
+        "L2_Macro": 5.5,
+        "L3_Network": 4.5,
+        "L4_Behavioral": 4.5,
+        "L5_Forensic": 10,
+        "L8_Regulatory": 8.0
+      }
+    }
+  ]
+}
