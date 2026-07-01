@@ -1,0 +1,19 @@
+{
+  "system": "Aggressive Fraud Detection v9.0 - ACTIVE MONITORING",
+  "scan_date": "2026-07-02T02:09:10.811673",
+  "companies_scanned": 307,
+  "emerging_fraud_alerts": 0,
+  "emerging_risk_warnings": 0,
+  "total_alerts": 0,
+  "methodology": "Real-time news monitoring + quarterly deterioration + regulatory actions + insider signals + credit stress",
+  "audit_trail": "SQLite: fraud_detection_v9_aggressive.db",
+  "monitoring_layers": {
+    "L1": "News fraud/investigation keywords (ACTIVE)",
+    "L5": "Quarterly deterioration trends (ACTIVE)",
+    "L8": "Regulatory action monitoring (ACTIVE)",
+    "L9": "Insider trading signals (ACTIVE)",
+    "L12": "Credit market stress indicators (ACTIVE)"
+  },
+  "top_emerging_risks": [],
+  "all_alerts": []
+}
