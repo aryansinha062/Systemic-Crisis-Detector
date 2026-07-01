@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-29T18:23:15.972945",
+  "ticker": "RAJESHEXPO.NS",
+  "quarterly_scores": [
+    {
+      "date": "2025-03-31",
+      "score": 0,
+      "red_flags": [],
+      "revenue": 1991896750000.0
+    },
+    {
+      "date": "2025-09-30",
+      "score": 1.5,
+      "red_flags": [
+        "Revenue down: -12.0%"
+      ],
+      "revenue": 1752117630000.0
+    },
+    {
+      "date": "2026-03-31",
+      "score": 0,
+      "red_flags": [],
+      "revenue": 2368642060000.0
+    }
+  ],
+  "first_warning": null,
+  "total_quarters_analyzed": 3
+}

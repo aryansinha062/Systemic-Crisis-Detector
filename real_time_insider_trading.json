@@ -1,0 +1,88 @@
+{
+  "monitoring_time": "2026-07-01T17:43:11.549716",
+  "companies_monitored": 9,
+  "high_risk_insiders": 6,
+  "companies": [
+    {
+      "company": "IndusInd Bank",
+      "has_insider_activity": true,
+      "insider_event": "Heavy promoter selling + director departure",
+      "insider_sells_score": 8.5,
+      "promoter_pledging_score": 7.5,
+      "insider_risk": 9.0,
+      "date": "2020-08-19 00:00:00"
+    },
+    {
+      "company": "YES Bank",
+      "has_insider_activity": true,
+      "insider_event": "Massive insider selling before crisis",
+      "insider_sells_score": 8.0,
+      "promoter_pledging_score": 8.5,
+      "insider_risk": 8.5,
+      "date": "2020-03-05 00:00:00"
+    },
+    {
+      "company": "IL&FS",
+      "has_insider_activity": true,
+      "insider_event": "CFO + multiple directors sold shares",
+      "insider_sells_score": 8.0,
+      "promoter_pledging_score": 9.0,
+      "insider_risk": 8.5,
+      "date": "2018-09-25 00:00:00"
+    },
+    {
+      "company": "Bhushan Steel",
+      "has_insider_activity": true,
+      "insider_event": "Heavy promoter pledging against loans",
+      "insider_sells_score": 7.0,
+      "promoter_pledging_score": 9.5,
+      "insider_risk": 8.5,
+      "date": "2017-06-04 00:00:00"
+    },
+    {
+      "company": "Suzlon Energy",
+      "has_insider_activity": true,
+      "insider_event": "Founder + CEO selling aggressively",
+      "insider_sells_score": 7.5,
+      "promoter_pledging_score": 7.0,
+      "insider_risk": 7.5,
+      "date": "2012-03-01 00:00:00"
+    },
+    {
+      "company": "Satyam Computers",
+      "has_insider_activity": true,
+      "insider_event": "CEO massive share sales + pledging",
+      "insider_sells_score": 9.0,
+      "promoter_pledging_score": 8.5,
+      "insider_risk": 9.5,
+      "date": "2009-01-07 00:00:00"
+    },
+    {
+      "company": "TCS",
+      "has_insider_activity": false,
+      "insider_event": "No significant insider activity",
+      "insider_sells_score": 2.0,
+      "promoter_pledging_score": 2.0,
+      "insider_risk": 2.0,
+      "date": null
+    },
+    {
+      "company": "Infosys",
+      "has_insider_activity": false,
+      "insider_event": "No significant insider activity",
+      "insider_sells_score": 2.0,
+      "promoter_pledging_score": 2.0,
+      "insider_risk": 2.0,
+      "date": null
+    },
+    {
+      "company": "Reliance",
+      "has_insider_activity": false,
+      "insider_event": "No significant insider activity",
+      "insider_sells_score": 2.0,
+      "promoter_pledging_score": 2.0,
+      "insider_risk": 2.0,
+      "date": null
+    }
+  ]
+}

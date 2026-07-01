@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-06-29T18:24:26.915304",
+  "company": "Rajesh Exports Limited",
+  "data_source": "SEBI Order June 3, 2026",
+  "quarterly_analysis": [
+    {
+      "quarter": "FY22_Q1",
+      "date": "2021-07-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.80x (cash not converting)"
+      ],
+      "revenue": 85000
+    },
+    {
+      "quarter": "FY22_Q2",
+      "date": "2021-10-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.78x (cash not converting)"
+      ],
+      "revenue": 87000
+    },
+    {
+      "quarter": "FY22_Q3",
+      "date": "2022-01-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.79x (cash not converting)"
+      ],
+      "revenue": 88000
+    },
+    {
+      "quarter": "FY22_Q4",
+      "date": "2022-03-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.79x (cash not converting)"
+      ],
+      "revenue": 90000
+    },
+    {
+      "quarter": "FY23_Q1",
+      "date": "2022-07-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.80x (cash not converting)"
+      ],
+      "revenue": 92000
+    },
+    {
+      "quarter": "FY23_Q2",
+      "date": "2022-10-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.81x (cash not converting)"
+      ],
+      "revenue": 94000
+    },
+    {
+      "quarter": "FY23_Q3",
+      "date": "2023-01-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.81x (cash not converting)"
+      ],
+      "revenue": 96000
+    },
+    {
+      "quarter": "FY23_Q4",
+      "date": "2023-03-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.82x (cash not converting)"
+      ],
+      "revenue": 98000
+    },
+    {
+      "quarter": "FY24_Q1",
+      "date": "2023-07-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.82x (cash not converting)"
+      ],
+      "revenue": 100000
+    },
+    {
+      "quarter": "FY24_Q2",
+      "date": "2023-10-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.82x (cash not converting)"
+      ],
+      "revenue": 105000
+    },
+    {
+      "quarter": "FY24_Q3",
+      "date": "2024-01-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.83x (cash not converting)"
+      ],
+      "revenue": 110000
+    },
+    {
+      "quarter": "FY24_Q4",
+      "date": "2024-03-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.83x (cash not converting)"
+      ],
+      "revenue": 115000
+    },
+    {
+      "quarter": "FY25_Q1",
+      "date": "2024-07-01",
+      "score": 7.5,
+      "red_flags": [
+        "\ud83d\udea8 Revenue spike: +204% (SUSPICIOUS)",
+        "\ud83d\udea8 OCF/NI 0.76x (cash not converting)",
+        "\ud83d\udea8 CIRCULAR: Rev +204% but Rec +-2.4% (FRAUD SIGNAL)"
+      ],
+      "revenue": 350000
+    },
+    {
+      "quarter": "FY25_Q2",
+      "date": "2024-10-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.80x (cash not converting)"
+      ],
+      "revenue": 380000
+    },
+    {
+      "quarter": "FY25_Q3",
+      "date": "2025-01-01",
+      "score": 2.0,
+      "red_flags": [
+        "\ud83d\udea8 OCF/NI 0.75x (cash not converting)"
+      ],
+      "revenue": 423099
+    }
+  ],
+  "first_critical_alert": {
+    "quarter": "FY25_Q1",
+    "date": "2024-07-01",
+    "score": 7.5,
+    "red_flags": [
+      "\ud83d\udea8 Revenue spike: +204% (SUSPICIOUS)",
+      "\ud83d\udea8 OCF/NI 0.76x (cash not converting)",
+      "\ud83d\udea8 CIRCULAR: Rev +204% but Rec +-2.4% (FRAUD SIGNAL)"
+    ],
+    "revenue": 350000
+  },
+  "investigation_timeline": {
+    "complaint_filed": "2024-03-11",
+    "sebi_order": "2026-06-03",
+    "detection_by_system": "2024-07-01"
+  }
+}

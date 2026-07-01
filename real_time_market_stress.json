@@ -1,0 +1,27 @@
+{
+  "assessment_time": "2026-07-01T17:45:03.736557",
+  "metrics": {
+    "VIX": {
+      "stress_score": 3.0
+    },
+    "INR_USD": {
+      "stress_score": 3.0
+    },
+    "Nifty50": {
+      "stress_score": 3.0
+    },
+    "US10Y": {
+      "stress_score": 3.0
+    },
+    "CrudeOil": {
+      "stress_score": 3.0
+    },
+    "SP500": {
+      "stress_score": 3.0
+    }
+  },
+  "overall": {
+    "overall_stress_score": 3.0,
+    "stress_level": "NORMAL MARKET CONDITIONS"
+  }
+}

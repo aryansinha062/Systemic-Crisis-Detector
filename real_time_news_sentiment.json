@@ -1,0 +1,102 @@
+{
+  "monitoring_time": "2026-07-01T17:40:06.016867",
+  "companies_monitored": 9,
+  "extreme_risk": 6,
+  "high_risk": 0,
+  "medium_risk": 0,
+  "companies": [
+    {
+      "company": "IndusInd Bank",
+      "articles_found": 1,
+      "fraud_signals": {
+        "accounting fraud": 9.0
+      },
+      "distress_signals": {},
+      "max_sentiment": 9.5,
+      "news_risk_score": 10,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "YES Bank",
+      "articles_found": 1,
+      "fraud_signals": {},
+      "distress_signals": {
+        "liquidity crisis": 8.5
+      },
+      "max_sentiment": 9.0,
+      "news_risk_score": 8.6,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "IL&FS",
+      "articles_found": 1,
+      "fraud_signals": {},
+      "distress_signals": {
+        "default": 8.5
+      },
+      "max_sentiment": 9.0,
+      "news_risk_score": 8.6,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "Bhushan Steel",
+      "articles_found": 1,
+      "fraud_signals": {},
+      "distress_signals": {
+        "insolvency": 9.0
+      },
+      "max_sentiment": 8.5,
+      "news_risk_score": 8.9,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "Suzlon Energy",
+      "articles_found": 1,
+      "fraud_signals": {
+        "accounting fraud": 9.0
+      },
+      "distress_signals": {},
+      "max_sentiment": 8.0,
+      "news_risk_score": 10,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "Satyam Computers",
+      "articles_found": 1,
+      "fraud_signals": {
+        "accounting fraud": 9.0
+      },
+      "distress_signals": {},
+      "max_sentiment": 9.5,
+      "news_risk_score": 10,
+      "risk_level": "EXTREME NEWS RISK"
+    },
+    {
+      "company": "TCS",
+      "articles_found": 0,
+      "fraud_signals": {},
+      "distress_signals": {},
+      "max_sentiment": 0,
+      "news_risk_score": 2.0,
+      "risk_level": "LOW NEWS RISK"
+    },
+    {
+      "company": "Infosys",
+      "articles_found": 0,
+      "fraud_signals": {},
+      "distress_signals": {},
+      "max_sentiment": 0,
+      "news_risk_score": 2.0,
+      "risk_level": "LOW NEWS RISK"
+    },
+    {
+      "company": "Reliance",
+      "articles_found": 0,
+      "fraud_signals": {},
+      "distress_signals": {},
+      "max_sentiment": 0,
+      "news_risk_score": 2.0,
+      "risk_level": "LOW NEWS RISK"
+    }
+  ]
+}
