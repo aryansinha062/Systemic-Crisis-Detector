@@ -1,0 +1,410 @@
+[
+  {
+    "company": "TCS",
+    "sector": "IT",
+    "ticker": "TCS.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "Reliance",
+    "sector": "Energy",
+    "ticker": "RELIANCE.NS",
+    "alert": "NORMAL",
+    "score": 2.69,
+    "flags": 0
+  },
+  {
+    "company": "HDFC Bank",
+    "sector": "Banking",
+    "ticker": "HDFCBANK.NS",
+    "alert": "NORMAL",
+    "score": 2.99,
+    "flags": 0
+  },
+  {
+    "company": "Infosys",
+    "sector": "IT",
+    "ticker": "INFY.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "ICICI Bank",
+    "sector": "Banking",
+    "ticker": "ICICIBANK.NS",
+    "alert": "NORMAL",
+    "score": 2.69,
+    "flags": 0
+  },
+  {
+    "company": "Wipro",
+    "sector": "IT",
+    "ticker": "WIPRO.NS",
+    "alert": "NORMAL",
+    "score": 2.6,
+    "flags": 0
+  },
+  {
+    "company": "Bajaj Auto",
+    "sector": "Auto",
+    "ticker": "BAJAJ-AUTO.NS",
+    "alert": "NORMAL",
+    "score": 2.59,
+    "flags": 0
+  },
+  {
+    "company": "ITC",
+    "sector": "Tobacco",
+    "ticker": "ITC.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "Maruti Suzuki",
+    "sector": "Auto",
+    "ticker": "MARUTI.NS",
+    "alert": "NORMAL",
+    "score": 2.6,
+    "flags": 0
+  },
+  {
+    "company": "SBI",
+    "sector": "Banking",
+    "ticker": "SBIN.NS",
+    "alert": "WARNING",
+    "score": 3.35,
+    "flags": 1
+  },
+  {
+    "company": "Bharti Airtel",
+    "sector": "Telecom",
+    "ticker": "BHARTIARTL.NS",
+    "alert": "NORMAL",
+    "score": 2.7,
+    "flags": 0
+  },
+  {
+    "company": "Asian Paints",
+    "sector": "Paints",
+    "ticker": "ASIANPAINT.NS",
+    "alert": "NORMAL",
+    "score": 2.7,
+    "flags": 0
+  },
+  {
+    "company": "Axis Bank",
+    "sector": "Banking",
+    "ticker": "AXISBANK.NS",
+    "alert": "WARNING",
+    "score": 3.42,
+    "flags": 1
+  },
+  {
+    "company": "JSW Steel",
+    "sector": "Steel",
+    "ticker": "JSWSTEEL.NS",
+    "alert": "NORMAL",
+    "score": 2.78,
+    "flags": 0
+  },
+  {
+    "company": "Kotak Bank",
+    "sector": "Banking",
+    "ticker": "KOTAKBANK.NS",
+    "alert": "NORMAL",
+    "score": 2.72,
+    "flags": 0
+  },
+  {
+    "company": "L&T",
+    "sector": "Engineering",
+    "ticker": "LT.NS",
+    "alert": "NORMAL",
+    "score": 2.72,
+    "flags": 0
+  },
+  {
+    "company": "Sun Pharma",
+    "sector": "Pharma",
+    "ticker": "SUNPHARMA.NS",
+    "alert": "NORMAL",
+    "score": 2.63,
+    "flags": 0
+  },
+  {
+    "company": "Tata Steel",
+    "sector": "Steel",
+    "ticker": "TATASTEEL.NS",
+    "alert": "NORMAL",
+    "score": 2.83,
+    "flags": 0
+  },
+  {
+    "company": "Tata Motors",
+    "sector": "Auto",
+    "ticker": "TATAMOTORS.NS",
+    "alert": "NORMAL",
+    "score": 3.67,
+    "flags": 1
+  },
+  {
+    "company": "Tech Mahindra",
+    "sector": "IT",
+    "ticker": "TECHM.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "Hero Motocorp",
+    "sector": "Auto",
+    "ticker": "HEROMOTOCO.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "HCL Tech",
+    "sector": "IT",
+    "ticker": "HCLTECH.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "UltraTech",
+    "sector": "Cement",
+    "ticker": "ULTRACEMCO.NS",
+    "alert": "NORMAL",
+    "score": 2.64,
+    "flags": 0
+  },
+  {
+    "company": "GAIL",
+    "sector": "Energy",
+    "ticker": "GAIL.NS",
+    "alert": "NORMAL",
+    "score": 2.68,
+    "flags": 0
+  },
+  {
+    "company": "ONGC",
+    "sector": "Energy",
+    "ticker": "ONGC.NS",
+    "alert": "NORMAL",
+    "score": 2.99,
+    "flags": 0
+  },
+  {
+    "company": "Adani Ports",
+    "sector": "Ports",
+    "ticker": "ADANIPORTS.NS",
+    "alert": "NORMAL",
+    "score": 2.7,
+    "flags": 0
+  },
+  {
+    "company": "Adani Green",
+    "sector": "Renewable",
+    "ticker": "ADANIGREEN.NS",
+    "alert": "WARNING",
+    "score": 3.87,
+    "flags": 2
+  },
+  {
+    "company": "NTPC",
+    "sector": "Power",
+    "ticker": "NTPC.NS",
+    "alert": "NORMAL",
+    "score": 2.8,
+    "flags": 0
+  },
+  {
+    "company": "Eicher Motors",
+    "sector": "Auto",
+    "ticker": "EICHERMOT.NS",
+    "alert": "NORMAL",
+    "score": 2.62,
+    "flags": 0
+  },
+  {
+    "company": "Power Grid",
+    "sector": "Power",
+    "ticker": "POWERGRID.NS",
+    "alert": "NORMAL",
+    "score": 3.16,
+    "flags": 0
+  },
+  {
+    "company": "Coal India",
+    "sector": "Mining",
+    "ticker": "COALINDIA.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "IOC",
+    "sector": "Energy",
+    "ticker": "IOC.NS",
+    "alert": "WARNING",
+    "score": 3.06,
+    "flags": 1
+  },
+  {
+    "company": "BPCL",
+    "sector": "Energy",
+    "ticker": "BPCL.NS",
+    "alert": "NORMAL",
+    "score": 2.85,
+    "flags": 0
+  },
+  {
+    "company": "SBI Card",
+    "sector": "Finance",
+    "ticker": "SBICARD.NS",
+    "alert": "WARNING",
+    "score": 3.38,
+    "flags": 1
+  },
+  {
+    "company": "HDFC",
+    "sector": "Finance",
+    "ticker": "HDFC.NS",
+    "alert": "NORMAL",
+    "score": 3.67,
+    "flags": 1
+  },
+  {
+    "company": "Lupin",
+    "sector": "Pharma",
+    "ticker": "LUPIN.NS",
+    "alert": "NORMAL",
+    "score": 2.58,
+    "flags": 0
+  },
+  {
+    "company": "Dr Reddy",
+    "sector": "Pharma",
+    "ticker": "DRREDDY.NS",
+    "alert": "NORMAL",
+    "score": 2.59,
+    "flags": 0
+  },
+  {
+    "company": "Cipla",
+    "sector": "Pharma",
+    "ticker": "CIPLA.NS",
+    "alert": "NORMAL",
+    "score": 2.6,
+    "flags": 0
+  },
+  {
+    "company": "Divi Labs",
+    "sector": "Pharma",
+    "ticker": "DIVISLAB.NS",
+    "alert": "NORMAL",
+    "score": 2.73,
+    "flags": 0
+  },
+  {
+    "company": "Apollo Hospitals",
+    "sector": "Healthcare",
+    "ticker": "APOLLOHOSP.NS",
+    "alert": "NORMAL",
+    "score": 2.71,
+    "flags": 0
+  },
+  {
+    "company": "Bajaj Finserv",
+    "sector": "Finance",
+    "ticker": "BAJAJFINSV.NS",
+    "alert": "WARNING",
+    "score": 3.47,
+    "flags": 1
+  },
+  {
+    "company": "Mahindra",
+    "sector": "Auto",
+    "ticker": "M&M.NS",
+    "alert": "NORMAL",
+    "score": 2.8,
+    "flags": 0
+  },
+  {
+    "company": "Nestle",
+    "sector": "FMCG",
+    "ticker": "NESTLEIND.NS",
+    "alert": "NORMAL",
+    "score": 2.77,
+    "flags": 0
+  },
+  {
+    "company": "Britannia",
+    "sector": "FMCG",
+    "ticker": "BRITANNIA.NS",
+    "alert": "NORMAL",
+    "score": 2.67,
+    "flags": 0
+  },
+  {
+    "company": "HUL",
+    "sector": "FMCG",
+    "ticker": "HINDUNILVR.NS",
+    "alert": "NORMAL",
+    "score": 2.66,
+    "flags": 0
+  },
+  {
+    "company": "Colpal",
+    "sector": "FMCG",
+    "ticker": "COLPAL.NS",
+    "alert": "NORMAL",
+    "score": 2.64,
+    "flags": 0
+  },
+  {
+    "company": "Marico",
+    "sector": "FMCG",
+    "ticker": "MARICO.NS",
+    "alert": "NORMAL",
+    "score": 2.71,
+    "flags": 0
+  },
+  {
+    "company": "Pidilite",
+    "sector": "Chemicals",
+    "ticker": "PIDILITIND.NS",
+    "alert": "NORMAL",
+    "score": 2.72,
+    "flags": 0
+  },
+  {
+    "company": "Abbott",
+    "sector": "Pharma",
+    "ticker": "ABBOTINDIA.NS",
+    "alert": "NORMAL",
+    "score": 2.62,
+    "flags": 0
+  },
+  {
+    "company": "Berger Paints",
+    "sector": "Paints",
+    "ticker": "BERGEPAINT.NS",
+    "alert": "NORMAL",
+    "score": 2.68,
+    "flags": 0
+  },
+  {
+    "company": "Bosch",
+    "sector": "Auto Components",
+    "ticker": "BOSCHLTD.NS",
+    "alert": "NORMAL",
+    "score": 2.64,
+    "flags": 0
+  }
+]
